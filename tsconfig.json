@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+     "target": "ES2020",                  // modern enough for React 18
+    "module": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "jsx": "react-jsx",                   // React 17+ transform
+    "strict": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@luxis-ui/react": ["./packages/luxis-ui/src"]
+    }
+  }
+}
